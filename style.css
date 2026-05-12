@@ -130,3 +130,15 @@ main {
 .table th {
     color: #D4AF37;
 }
+
+.carousel-inner, 
+.carousel-item {
+    height: auto;
+}
+
+@media (min-width: 768px) {
+    .carousel-inner, 
+    .carousel-item {
+        height: 500px;
+    }
+}
