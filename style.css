@@ -1,0 +1,132 @@
+h1,
+h2 {
+    color: #D4AF37;
+    font-family: 'Cinzel', serif;
+    border-bottom: 1px solid rgba(212, 175, 55, 0.3);
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+body {
+    background-image: url('media/wallpaper.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: 'Lora', serif;
+    color: #F1E3D3;
+}
+
+main {
+    background-color: rgba(20, 15, 10, 0.85);
+    border: 1px solid #D4AF37;
+    border-radius: 8px;
+    padding: 30px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    backdrop-filter: blur(4px);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.7);
+}
+
+.cyber-navbar .nav-link {
+    color: #F1E3D3 !important;
+}
+
+.cyber-navbar .nav-link:hover,
+.cyber-navbar .nav-link.active {
+    color: #D4AF37 !important;
+}
+
+.rpg-card {
+    background-color: rgba(20, 15, 10, 0.85) !important;
+    border: 1px solid #D4AF37 !important;
+    border-radius: 8px;
+    color: #F1E3D3;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.8);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.rpg-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(212, 175, 55, 0.2);
+}
+
+.rpg-card .card-img-top {
+    height: 200px;
+    object-fit: cover;
+    border-bottom: 1px solid #D4AF37;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+}
+
+.rpg-card .card-title {
+    color: #D4AF37;
+    font-family: 'Cinzel', serif;
+    text-transform: uppercase;
+}
+
+.rpg-btn {
+    background-color: transparent;
+    border: 1px solid #D4AF37;
+    color: #D4AF37;
+    font-family: 'Cinzel', serif;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    width: 100%;
+}
+
+.rpg-btn:hover {
+    background-color: #D4AF37;
+    color: #121212;
+    box-shadow: 0 0 15px rgba(212, 175, 55, 0.5);
+}
+
+.rpg-footer {
+    background-color: rgba(15, 10, 8, 0.9);
+    color: #F1E3D3;
+    font-family: 'Cinzel', serif;
+    border-top: 2px solid #D4AF37;
+    padding: 25px 0;
+    margin-top: 50px;
+    text-align: center;
+    letter-spacing: 1px;
+    box-shadow: 0 -5px 15px rgba(0, 0, 0, 0.5);
+}
+
+.rpg-footer .copyright {
+    font-size: 0.9rem;
+    opacity: 0.8;
+}
+
+.rpg-footer .footer-accent {
+    color: #D4AF37;
+    font-weight: bold;
+}
+
+.cover {
+    border: 1px solid #D4AF37;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+    padding: 5px;
+    background-color: rgba(20, 15, 10, 0.5);
+    height: 600px;
+    width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cover .carousel,
+.cover .carousel-inner,
+.cover .carousel-item {
+    height: 100%;
+}
+
+.table {
+    --bs-table-bg: transparent;
+    --bs-table-color: #F1E3D3;
+    border-color: #D4AF37;
+}
+
+.table th {
+    color: #D4AF37;
+}
