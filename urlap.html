@@ -59,44 +59,61 @@
             </div>
             <div class="col-md-6">
                 <form>
-                    <div class="form-group">
-                        <label for="gameName">Játék neve</label>
-                        <input type="text" class="form-control" id="gameName" aria-describedby="gameName"
-                            placeholder="Játék neve">
-                    </div>
-                    <div class="form-group">
-                        <label for="publisher">Kiadó</label>
-                        <input type="text" class="form-control" id="publisher" aria-describedby="publisher"
-                            placeholder="Kiadó">
-                    </div>
-                    <div class="form-group">
-                        <label for="publishDate">Megjelenés éve</label>
-                        <input type="date" id="publishDate" name="publishDate">
-                    </div>
-                    <div>
-                        <label>Játék neve</label>
-                    </div>
-                    <div class="form-check">
-
-                        <input class="form-check-input" type="radio" name="isRpg" id="isRpg1">
-                        <label class="form-check-label" for="isRpg1">
-                            Nem
-                        </label>
-                    </div>
-                    <div class="form-check">
-                        <input class="form-check-input" type="radio" name="isRpg" id="isRpg2" checked>
-                        <label class="form-check-label" for="isRpg2">
-                            Igen
-                        </label>
-                    </div>
-                    <div>
-                        <label>Szeretnél feliraktozni a hírlevélre?</label>
-                    </div>
-                    <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="flexCheckIndeterminate">
-                        <label class="form-check-label" for="flexCheckIndeterminate">
-                            Igen
-                        </label>
+                    <div class="rpg-form">
+                        <div class="form-group">
+                            <label for="gameName">Játék neve</label>
+                            <input type="text" class="form-control" id="gameName" aria-describedby="gameName"
+                                placeholder="Ide írd a játék nevét">
+                        </div>
+                        <div class="form-group">
+                            <label for="publisher">Kiadó</label>
+                            <input type="text" class="form-control" id="publisher" aria-describedby="publisher"
+                                placeholder="Ide írd a kiadó nevét">
+                        </div>
+                        <div class="form-group">
+                            <label for="publishDate">Megjelenés éve</label>
+                            <input type="date" id="publishDate" name="publishDate">
+                        </div>
+                        <div>
+                            <label>Játék neve</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="isRpg" id="isRpg1">
+                            <label class="form-check-label" for="isRpg1">
+                                Nem
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="isRpg" id="isRpg2" checked>
+                            <label class="form-check-label" for="isRpg2">
+                                Igen
+                            </label>
+                        </div>
+                        <div>
+                            <label>Szeretnél feliraktozni a hírlevélre?</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckIndeterminate">
+                            <label class="form-check-label" for="flexCheckIndeterminate">
+                                Igen
+                            </label>
+                        </div>
+                        <div class="mb-3">
+                            <label for="details" class="form-label">Rövid leírás</label>
+                            <textarea class="form-control" id="details" rows="3"
+                                placeholder="Ide írd a játék leírását"></textarea>
+                        </div>
+                        <div>
+                            <label>Borítókép</label>
+                        </div>
+                        <div class="input-group mb-3">
+                            <input type="file" class="form-control" id="wallpaper">
+                            <label class="input-group-text" for="wallpaper">Feltöltés</label>
+                        </div>
+                        <div class="buttons">
+                            <button type="reset" class="btn btn-outline-danger">Visszállítás</button>
+                            <button type="submit" class="btn btn-outline-success button2">Küldés</button>
+                        </div>
                     </div>
                 </form>
             </div>
