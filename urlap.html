@@ -22,38 +22,95 @@
     <header>
         <h1>⚔️RPG VILÁGOK</h1>
     </header>
-        <nav class="navbar navbar-expand-lg cyber-navbar">
-            <div class="container-fluid">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="index.html">Kezdőlap</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="witcher.html">The Witcher 3</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="fallout.html">Fallout NV</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="skyrim.html">TES 5: Skyrim</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" href="urlap.html">Beküldés</a>
-                        </li>
-                    </ul>
-                </div>
+    <nav class="navbar navbar-expand-lg cyber-navbar">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="index.html">Kezdőlap</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="witcher.html">The Witcher 3</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="fallout.html">Fallout NV</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="skyrim.html">TES 5: Skyrim</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="urlap.html">Beküldés</a>
+                    </li>
+                </ul>
             </div>
-        </nav>
+        </div>
+    </nav>
     <main class="container-fluid">
         <div>
-            <p></p>
+            <h2>Kedvenc játék</h2>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <img src="media/rpg_montazs.jpg" alt="Egy montázskép rpg játékokról" class="urlapKep">
+            </div>
+            <div class="col-md-6">
+                <form>
+                    <div class="form-group">
+                        <label for="gameName">Játék neve</label>
+                        <input type="text" class="form-control" id="gameName" aria-describedby="gameName"
+                            placeholder="Játék neve">
+                    </div>
+                    <div class="form-group">
+                        <label for="publisher">Kiadó</label>
+                        <input type="text" class="form-control" id="publisher" aria-describedby="publisher"
+                            placeholder="Kiadó">
+                    </div>
+                    <div class="form-group">
+                        <label for="publishDate">Megjelenés éve</label>
+                        <input type="date" id="publishDate" name="publishDate">
+                    </div>
+                    <div>
+                        <label>Játék neve</label>
+                    </div>
+                    <div class="form-check">
+
+                        <input class="form-check-input" type="radio" name="isRpg" id="isRpg1">
+                        <label class="form-check-label" for="isRpg1">
+                            Nem
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="isRpg" id="isRpg2" checked>
+                        <label class="form-check-label" for="isRpg2">
+                            Igen
+                        </label>
+                    </div>
+                    <div>
+                        <label>Szeretnél feliraktozni a hírlevélre?</label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckIndeterminate">
+                        <label class="form-check-label" for="flexCheckIndeterminate">
+                            Igen
+                        </label>
+                    </div>
+                </form>
+            </div>
         </div>
     </main>
+    <footer class="rpg-footer">
+        <div class="container">
+            <p class="copyright">
+                © <span class="footer-accent">2024</span>
+                <span class="footer-accent">RPG Világok</span>.
+                Minden jog fenntartva.
+            </p>
+        </div>
+    </footer>
 </body>
 
 </html>

@@ -131,13 +131,23 @@ main {
     color: #D4AF37;
 }
 
-.carousel-inner, 
+.carousel-inner,
 .carousel-item {
     height: auto;
 }
 
+iframe {
+    width: 80%;
+}
+
+.urlapKep {
+    border: 1px solid #D4AF37;
+}
+
+
 @media (min-width: 768px) {
-    .carousel-inner, 
+
+    .carousel-inner,
     .carousel-item {
         height: 500px;
     }
