@@ -8,6 +8,11 @@ h2 {
     text-align: center;
 }
 
+h3 {
+    color: #D4AF37;
+    font-family: 'Cinzel', serif;
+}
+
 body {
     background-image: url('media/wallpaper.jpg');
     background-size: cover;
@@ -158,7 +163,8 @@ form {
     box-sizing: border-box;
 }
 
-input,label {
+input,
+label {
     margin-bottom: 20px;
 }
 
@@ -167,6 +173,11 @@ input,label {
     float: right;
 }
 
+.main-p{
+    width: 80%;
+    text-align: center;
+    justify-self: center;
+}
 @media (max-width: 768px) {
     iframe {
         width: 100%;
